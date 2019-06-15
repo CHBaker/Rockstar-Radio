@@ -4,9 +4,9 @@
 
 ## Running the app
 1. Clone `https://github.com/CHBaker/Rockstar-Radio.git`
-2. Install Python 3
-3. Install Django
-4. In project root, run `python3 manage.py runserver`
+2. Install [Python 3](https://realpython.com/installing-python/)
+3. Install [Django](https://docs.djangoproject.com/en/2.2/intro/install/)
+4. In project root, run `$ python3 manage.py runserver`
 
 ## About
 This App serves a static html page.
