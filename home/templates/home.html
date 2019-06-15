@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="google" content="notranslate">
+    <title>Rockstar Radio</title>
+    <link rel="stylesheet" href="{% static "rockstar_radio/home.css" %}" type="text/css">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div class="title">
+        Rockstar Radio
+      </div>
+    </div>
+    
+    <div class="container">
+
+      <div class="sub-header">
+        <div class="sub-item">
+          Ozzy Ozbourne
+        </div>
+        <div class="sub-item">
+          Jimmi Hendrix
+        </div>
+        <div class="sub-item">
+          Nirvana
+        </div>
+      </div>
+
+      <div class="content">
+
+        <div class="player">
+
+          <div class="control-container">
+
+            <audio controls autoplay controlsList="nodownload">
+              <source src="{% static "rockstar_radio/crazy_train.mp3" %}" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+
+            <span>Crazy Train - Ozzy Ozbourne</span>
+
+          </div>
+
+          <div class="songs">
+
+            <span>
+              <i class="fa fa-play-circle"></i>Smells Like Teen Spirit - Nirvana
+            </span>
+            <span>
+              <i class="fa fa-play-circle"></i>Space Oddity - David Bowie
+            </span>
+            <span>
+              <i class="fa fa-play-circle"></i>Back In Black - AC/DC
+            </span>
+            <span>
+              <i class="fa fa-play-circle"></i>Stairway To Heaven - Led Zepplin
+            </span>
+            <span>
+              <i class="fa fa-play-circle"></i>Bohemian Rhapsody - Queen
+            </span>
+            <span>
+              <i class="fa fa-play-circle"></i>Dark Side Of The Moon - Pink Floyd
+            </span>
+            <span>
+              <i class="fa fa-play-circle"></i>Beast Of Burden - Rolling Stones
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="picker">
+
+        </div>
+      </div>
+
+      <div class="quote">
+        <i class="fa fa-fire-alt"></i> "The Best Rock Music 24/7/365" <i class="fa fa-fire-alt"></i>
+      </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7fa071d9e3.js"></script>
+    
+  </body>
+
+</html>
