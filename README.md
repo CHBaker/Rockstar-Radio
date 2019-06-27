@@ -11,3 +11,5 @@
 ## About
 This App serves a static html page.
 Inside the page, it serves a custom html element along with javascript. The custom element is actually an Angular Element, written in typescript, and compiled into a custom html element.
+
+The Custom Angular Element that this app uses can be cloned [here](https://github.com/CHBaker/Band-Name-generator)
