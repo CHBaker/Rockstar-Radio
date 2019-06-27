@@ -67,7 +67,8 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 55px 35px;
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .player {
@@ -78,6 +79,7 @@ body {
     background: rgba(255, 189, 0, 0.6);
     border: 2px solid #FFBD00;
     border-radius: 2px;
+    box-sizing: border-box;
 }
 
 .control-container {
@@ -119,7 +121,7 @@ body {
 
 .picker {
     display: flex;
-    width: 90%;
+    width: 1031px;
     height: 100%;
     justify-content: space-around;
     align-items: center;

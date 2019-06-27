@@ -76,6 +76,13 @@
 
         <div class="picker">
 
+          <band-name-generator
+            adjectives="{{ adjectives }}"
+            other-adjectives="{{ otherAdjectives  }}"
+            nouns="{{ nouns  }}"
+            plural-nouns="{{ pluralNouns  }}"
+          ></band-name-generator>
+
         </div>
       </div>
 
@@ -86,6 +93,7 @@
     </div>
 
     <script src="https://kit.fontawesome.com/7fa071d9e3.js"></script>
+    <script src={% static "rockstar_radio/band-name-generator.js" %}></script>
     
   </body>
 
